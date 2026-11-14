@@ -2,7 +2,7 @@
 
 A responsive personal portfolio website built with HTML, CSS, and JavaScript.
 
-**Live site:** https://personal-portfolio-yourname.vercel.app *(replace with your Vercel link)*
+**Live site:** https://personal-portfolio-one-amber-95.vercel.app *(replace with your Vercel link)*
 
 ## Sections
 - Home: name, introduction, and tagline
