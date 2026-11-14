@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Juan Dela Cruz | Personal Portfolio</title>
+  <meta name="description" content="Portfolio of Juan Dela Cruz, a BS Information Technology student and aspiring web developer.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#home" class="brand">My Portfolio</a>
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle menu">Menu</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section id="home" class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="hello">Hi, I'm</p>
+          <h1>Josephine Marcelino</h1>
+          <p class="intro">I'm a 4th-year BS Information Technology student from Bulacan, Philippines. I enjoy turning ideas into clean, working web pages and I'm always learning something new.</p>
+          <div class="btn-row">
+            <a href="#projects" class="btn btn-primary">View my projects</a>
+            <a href="#contact" class="btn btn-ghost">Contact me</a>
+          </div>
+        </div>
+        <div class="avatar" aria-hidden="false">
+          <span class="avatar-initials">JDC</span>
+          <!-- Replace images/profile.jpg with your own photo -->
+          <img src="img/profile.jpg" alt="Portrait of Josephine Marcelino" onerror="this.remove()">
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="wrap">
+        <h2>About me</h2>
+        <div class="about-grid">
+          <div class="prose">
+            <p>I'm a student who likes solving problems with code. I started with simple HTML pages and now build small web apps with JavaScript. I enjoy working in teams, and I want to grow into a full-stack web developer.</p>
+            
+          </div>
+          <div>
+            <h3>Education</h3>
+            <ul class="timeline">
+              <li><strong>BS Information Technology</strong><span>La Consolacion University Philippines, 2026 – Present</span></li>
+              <li><strong>Senior High School, STEM Strand</strong><span>Academia De San Gabriel Archangel, 2022 – 2024</span></li>
+              <li><strong>Junior High School</strong><span>Academia De San Gabriel Archangel, 2010 – 2017</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section alt">
+      <div class="wrap">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3>Web development</h3>
+            <div class="skill"><div class="skill-top"><span>HTML5</span><span>90%</span></div><div class="bar"><i data-level="90"></i></div></div>
+            <div class="skill"><div class="skill-top"><span>CSS</span><span>85%</span></div><div class="bar"><i data-level="85"></i></div></div>
+            <div class="skill"><div class="skill-top"><span>JavaScript</span><span>75%</span></div><div class="bar"><i data-level="75"></i></div></div>
+          </div>
+          <div class="skill-group">
+            <h3>Programming</h3>
+            <div class="skill"><div class="skill-top"><span>Python</span><span>70%</span></div><div class="bar"><i data-level="70"></i></div></div>
+            <div class="skill"><div class="skill-top"><span>Java</span><span>65%</span></div><div class="bar"><i data-level="65"></i></div></div>
+            <div class="skill"><div class="skill-top"><span>SQL and MySQL</span><span>60%</span></div><div class="bar"><i data-level="60"></i></div></div>
+          </div>
+          <div class="skill-group">
+            <h3>Tools</h3>
+            <ul class="chips">
+              <li>Git and GitHub</li><li>VS Code</li><li>Vercel</li><li>Figma</li><li>Canva</li><li>Microsoft Office</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="wrap">
+        <h2>Projects</h2>
+        <div class="project-grid">
+          <article class="project">
+            <div class="project-body">
+              <h3>Admin apps </h3>
+            
+              <ul class="chips small"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+              
+            </div>
+          </article>
+          <article class="project">
+            <div class="project-body">
+              <h3>Godot Game 2D game</h3>
+              
+              <ul class="chips small"><li>Godot</li><li>GDScript</li><li>KOTLIN</li></ul>
+              
+            </div>
+          </article>
+          <article class="project">
+            <div class="project-body">
+              <h3>Carbs Tracker App</h3>
+              <ul class="chips small"><li>CSS</li><li>JavaScript</li></ul>
+              
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section id="achievements" class="section alt">
+      <div class="wrap">
+        <h2>Achievements</h2>
+        <ul class="timeline wide">
+          <li><strong>Dean's Lister</strong><span>2023 – 2024, Your University Name</span></li>
+          <li><strong>Carbs Tracker App</strong><span>2024- 2025</span></li>
+          <li><strong>MOS Exam</strong><span>2024-2025</span></li>
+         
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="wrap contact-grid">
+        <div>
+          <h2>Contact me</h2>
+          <p class="prose-p">Have a question or want to work together? Send me a message and I'll reply as soon as I can.</p>
+          <ul class="contact-list">
+            <li><span>Email</span><a href="mailto:josephine.marcelino@email.lcup.edu.ph">josephine.marcelino@email.lcup.edu.ph</a></li>
+            <li><span>GitHub</span><a href="https://github.com/josephinemarcelino-prog" target="_blank" rel="noopener">github.com/josephinemarcelino-prog</a></li>
+            <li><span>Location</span>Bulacan, Philippines</li>
+          </ul>
+        </div>
+        <div class="form-wrap">
+          <label for="name">Your name</label>
+          <input id="name" type="text" autocomplete="name">
+          <label for="msg">Message</label>
+          <textarea id="msg" rows="5"></textarea>
+          <button class="btn btn-primary" id="sendBtn" type="button">Send by email</button>
+          <p class="note" id="formNote" role="status"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Josephine Marcelino. Built with HTML, CSS, and JavaScript.</p>
+    <a href="#home">Back to top</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
