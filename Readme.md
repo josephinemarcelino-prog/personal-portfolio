@@ -35,5 +35,4 @@ Open `index.html` in a browser. No build step is needed.
 ## Deployment
 Hosted on Vercel and connected to this GitHub repository. Every push to `main` redeploys the site automatically.
 
-## Author
-Juan Dela Cruz, BS Information Technology
+
