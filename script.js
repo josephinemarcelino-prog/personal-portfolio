@@ -37,7 +37,7 @@ const barObs = new IntersectionObserver((entries, obs) => {
 bars.forEach(b => barObs.observe(b));
 
 // Contact form: opens the visitor's email app with the message filled in
-const EMAIL = 'josephine.marcelino@example.com'; // change to your email
+const EMAIL = 'josephine.marcelino@edu.lcup.edu.com'; // change to your email
 document.getElementById('sendBtn').addEventListener('click', () => {
   const name = document.getElementById('name').value.trim();
   const msg = document.getElementById('msg').value.trim();
